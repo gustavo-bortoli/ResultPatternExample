@@ -1,0 +1,21 @@
+@ResultPatternExample_HostAddress = http://localhost:5034
+
+GET {{ResultPatternExample_HostAddress}}/products/1
+Accept: application/json
+
+###
+
+GET {{ResultPatternExample_HostAddress}}/products/2
+Accept: application/json
+
+###
+
+GET {{ResultPatternExample_HostAddress}}/products/5
+Accept: application/json
+
+###
+
+GET {{ResultPatternExample_HostAddress}}/products/abc
+Accept: application/json
+
+###
